@@ -1,12 +1,12 @@
 import React from 'react'
-import { Navbar, Container, Nav, Row } from 'react-bootstrap'
+import { Navbar, Container, Nav} from 'react-bootstrap'
 
 function Header() {
     return (
         <header>
             <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
                 <Container>
-                    <Navbar.Brand href="/">ProShop</Navbar.Brand>
+                    <Navbar.Brand href="/">viStore</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
