@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom'
 import axios from 'axios'
 
 
+
 function ProductScreen() {
   const [product, setProduct] = useState({})
   const { id } = useParams()
