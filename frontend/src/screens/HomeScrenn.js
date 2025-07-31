@@ -16,22 +16,19 @@ const HomeScrenn = () => {
 
   return (
     <div>
+      {/* <button onClick={() => { throw new Error("This is your first error!"); }}>
+        Break the world
+      </button> */}
       <h1>Lastest Products</h1>
       <Row>
         {products.map(product => (
           <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
             <Product product={product} />
           </Col>
-
         ))}
       </Row>
     </div>
   )
 }
-
-
-return <button onClick={() => { throw new Error("This is your first error!"); }}>Break the world</button>;
-
-
 
 export default HomeScrenn
